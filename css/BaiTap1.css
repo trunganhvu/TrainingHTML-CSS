@@ -1,0 +1,191 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sub-text {
+  font-size: 20px;
+  color: #d9d9d9;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.highlight {
+  color: #b6b6b6;
+}
+
+.highlight-pink {
+  color: #f07d9b;
+}
+
+.main-header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 1em;
+}
+
+.main-header .container img {
+  width: 35px;
+  height: 35px;
+}
+
+.btn {
+  border: 2px solid #ffffff;
+  padding: 1em 2em;
+  margin: 2em 0;
+  color: #ffffff;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.border {
+  border-radius: 5px;
+}
+
+.post {
+  padding: 3em 0;
+  color: #ffffff;
+}
+
+.post-banner {
+  width: 50%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(228, 107, 128, 0.7)), to(rgba(236, 145, 99, 0.5)));
+  background: linear-gradient(to right, rgba(228, 107, 128, 0.7), rgba(236, 145, 99, 0.5));
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.container .banner {
+  background-image: url("https://image.shutterstock.com/shutterstock/photos/1860860644/display_1500/stock-photo-gozo-malta-november-th-ferry-linking-the-islands-of-malta-and-gozo-1860860644.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.flex-col-center {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-col-start {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.flex-row-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.flex-row-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.flex-row-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #d9d9d9;
+  border-radius: 100px;
+}
+
+.line {
+  width: 120px;
+  height: 2px;
+  background: #d9d9d9;
+  margin-top: -50px;
+}
+
+.post-banner-right {
+  height: 404px;
+}
+
+.post-banner-right p {
+  text-align: left;
+}
+
+.post-banner-right .margin {
+  margin-left: 7em;
+  margin-right: 7em;
+}
+
+.post-banner-right a {
+  position: absolute;
+  margin: 0;
+}
+/*# sourceMappingURL=BaiTap1.css.map */
